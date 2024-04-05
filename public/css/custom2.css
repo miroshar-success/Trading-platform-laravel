@@ -1,0 +1,123 @@
+#donut-chart{
+    height:232px;
+}
+.float-right{
+    float: right;
+}
+#statisticschart3 .apexcharts-canvas text {
+    fill: #ffffff !important;
+}
+#statisticschart3 .apexcharts-toolbar{
+    display: none !important;
+}
+.light-skin .knob{
+    width: 104px !important;
+    height: 104px !important;
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 50px !important;
+    margin-left: -150px !important;
+    border: 0px;
+    background: #fff;
+    font: bold 40px Arial;
+    text-align: center;
+    color: rgb(62, 142, 247);
+    padding: 0px;
+    appearance: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16)
+}
+
+.dark-skin .knob{
+    width: 104px !important;
+    height: 104px !important;
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 50px !important;
+    margin-left: -150px !important;
+    border: 0px;
+    background: #fff;
+    font: bold 40px Arial;
+    text-align: center;
+    color: rgb(62, 142, 247);
+    padding: 0px;
+    appearance: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.16)
+}
+.rtl .third-section h4{
+    text-align: end;
+}
+
+
+.row > * { 
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.pat-div h5{
+    color: #898989;
+}
+.dataTables_length{
+    display: none !important;
+}
+#example5_filter{
+    display: none !important;
+}
+.dataTables_info{
+    padding-left: 20px;
+}
+.dataTables_paginate{
+    padding-right: 10px;
+}
+.wrapper .border-lightfade {
+    border-color: rgb(72 72 72 / 48%) !important;
+}
+#chart-redio{
+    height: 300px !important;
+}
+#activity-chart{
+    height: 300px !important;
+}
+/*==============*/
+
+
+.contacts .table > tbody > tr > td, .table > tbody > tr > th {
+    padding:  10px 15px;
+}
+.contacts .table > :not(:last-child) > :last-child > * {
+    border-bottom-color: #ffffff00;
+}
+.contacts table.dataTable{
+    border-collapse: collapse !important;
+}
+
+
+/*==============*/
+@media only screen and (max-width: 1600px) {
+    #chart-redio{
+        height: 340px !important;
+    }
+    #activity-chart{
+        height: 340px !important;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #chart-redio{
+        height: 360px !important;
+    }
+    #activity-chart{
+        height: 360px !important;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    .third-section div{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 835px) {
+    .third-section div{
+        font-size: 14px;
+    }
+}
